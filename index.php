@@ -1,5 +1,4 @@
-<?php
-echo '<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -10,13 +9,25 @@ echo '<!DOCTYPE html>
     <meta name="description" content="">
     <meta name="author" content="">
 
+    <!-- Title -->
     <title>WiseScan - Asset Management</title>
 
-    <!-- Bootstrap Core CSS -->
+     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom CSS -->
+    <!-- Stylesheet -->
     <link href="css/blog-post.css" rel="stylesheet">
+    <link href="css/appStyle.css" rel="stylesheet">
+
+    <!-- JS libraries -->
+    <script src="js/jquery-3.2.0.min.js"></script>
+
+    <!-- JS scripts -->
+    <script src="js.js"></script>
+
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+
 </head>
 
 <body>
@@ -47,40 +58,53 @@ echo '<!DOCTYPE html>
                         <a href="#">View</a>
                     </li>
                 </ul>
+                <br>
             </div>
             <!-- /.navbar-collapse -->
+            <!-- Title -->
+            <div align="middle">
+                <h1 style="font-size: 50px; font-weight: bolder;color: white;"><span style="color:yellow;"></span></h1>
+            </div>
         </div>
         <!-- /.container -->
     </nav>
 
     <!-- Page Content -->
-    <div class="container">
+    <div class="container" style="padding-top: 40px;">
 
-        <div class="row" align="middle">
-
+        <div class="row background-img" align="middle">
             <!-- Main menu-->
-            <div class="col-lg-8">
+            <div class="well"  style="width:320px; border: none; opacity: 0.9;">
 
-                <h1 style="font-size: 50px; font-weight: bolder;">Wise<span style="color: yellow;">S</span>can</h1>
-
-                <!-- Author -->
-                <p class="lead"> || |||| | ||| | | |||| || |</p>
-                </div>';
-
-include '_layouts/authentication.php';
-
-echo '<!-- Footer -->
-        <footer style="background-color: orange;">
-            <div class="row">
-                <div class="col-lg-12" align="middle">
-                    <p>Copyright &copy; WiseScan 2017 | Asset Management Console</p>
+                <div align="middle">
+                    <div class="logo-med"></div>
                 </div>
-            </div>
-            <!-- /.row -->
-        </footer>
 
-    </div>
-    <!-- /.container -->
+                    <div class="input-group">
+                        <div style="padding-top:10px;padding-bottom: 10px;">
+                            <h4>Username </h4>
+                            <input type="text" class="form-control" size="60">
+                        </div>
+                        <br>
+                        <div style="padding-top:10px;padding-bottom: 10px;">
+                            <h4>Password </h4>
+                            <input type="text" class="form-control" size="60">
+                        </div>
+                    </div>
+
+                    <br><br>
+                    
+                    <button class="btn btn-default" type="button" style="width: 100%;">
+                        <h4>Login</h4>
+                    </button>
+                    
+                    <br><br>
+
+                     <a href="http://system.dev/wisescan/admin/home/"> Forgot your password ?</a>
+            </div>
+        
+        </div>        
+</div>
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
@@ -89,7 +113,14 @@ echo '<!-- Footer -->
     <script src="js/bootstrap.min.js"></script>
 
 </body>
+</html>;
 
-</html>';
+<script>
+    function show(){
+            $(".btn").show();
+    }
 
-?>
+     function hide(){
+            $(".btn").hide();
+    }
+</script>

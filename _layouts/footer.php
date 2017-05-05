@@ -19,5 +19,16 @@
     <script src="js/bootstrap.min.js"></script>
 
 </body>
-
 </html>
+<script>
+    function showForm(){
+            $(".frmCtrl").show();
+            //alert("hello");
+    }
+
+     function hideForm(){
+            $(".frmCtrl").hide();
+             alert("hello");
+    }
+</script>
+

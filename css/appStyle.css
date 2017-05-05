@@ -1,0 +1,27 @@
+
+
+.btnMainMenu{
+	width:320px;
+	height:60px;
+}
+
+.btnMenuTools{
+	width:40px;
+	height:40px;
+}
+
+body {
+    background-image: url("../img/bg.jpg");
+    background-color: white;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    background-size: 50%;
+}
+
+.logo-med {
+    background-image: url("../img/logo.png");
+    background-size: 100%;
+    background-color: grey;
+    width:120px; height:100px;
+}

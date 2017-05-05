@@ -10,20 +10,24 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
+    <!-- Title -->
     <title>WiseScan - Asset Management</title>
 
-    <!-- Bootstrap Core CSS -->
+     <!-- Bootstrap Core CSS -->
     <link href="../css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom CSS -->
+    <!-- Stylesheet -->
     <link href="../css/blog-post.css" rel="stylesheet">
+    <link href="../css/appStyle.css" rel="stylesheet">
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    <!-- JS libraries -->
+    <script src="../js/jquery-3.2.0.min.js"></script>
+
+    <!-- JS scripts -->
+    <script src="../js.js"></script>
+
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
 
 </head>
 
@@ -33,46 +37,27 @@
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#">WS</a>
-            </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li>
-                        <a href="#">File</a>
-                    </li>
-                    <li>
-                        <a href="#">Edit</a>
-                    </li>
-                    <li>
-                        <a href="#">View</a>
-                    </li>
-                </ul>
+                <br>
             </div>
             <!-- /.navbar-collapse -->
+            <!-- Title -->
+            <div align="middle>">
+             <div class="logo-med"></div>
+             <br>
+            </div>
         </div>
         <!-- /.container -->
     </nav>
 
+    <hr>
+
     <!-- Page Content -->
-    <div class="container">
+    <div class="container" style="padding-top: 50px;">
 
         <div class="row">
 
-            <!-- Blog Post Content Column -->
-            <div class="col-lg-8">
+            
 
-                <!-- Blog Post -->
-
-                <!-- Title -->
-                <h1 style="font-size: 50px; font-weight: bolder;">Wise<span style="color: yellow;">S</span>can</h1>
-
-                <!-- Author -->
-                <p class="lead">Asset<a href="#"> | Management | </a>Console</p>
+                

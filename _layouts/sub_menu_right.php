@@ -2,9 +2,9 @@
 <!-- Search Sidebar Widgets Column -->
             <div class="col-md-4">
 
-                <!-- Blog Search Well -->
-                <div class="well">
-                    <h4 style="color: grey;">||| | |||| || | || | ||| ||| | > > > search asset</h4>
+                <!-- Asset Search -->
+                <div class="well" style="background-color: grey;">
+                    <h4 style="color: white;">search asset</h4>
                     <div class="input-group">
                         <input type="text" class="form-control" placeholder="asset barcode, name or category">
                         <span class="input-group-btn">
@@ -16,7 +16,7 @@
                     <!-- /.input-group -->
                 </div>
 
-                <!-- Blog Categories Well -->
+                <!-- Quick Reporting Menu -->
                 <div class="well" style="background-color:grey;">
                     <div class="row">
                         <div class="col-lg-12">
@@ -34,7 +34,8 @@
                 <!-- Side Widget Well -->
                 <div class="well"  style="background-color:grey;">
                     <a href="#"><h4 style="font-size:16px;color: white;">+ Settings </h4></a>
+                    <a href="<?php echo Routes::index()?>" style="font-size:16px; color: white;">- Logout</a>
                     
                 </div>
-
+                
             </div>
